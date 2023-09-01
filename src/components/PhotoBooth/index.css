@@ -1,0 +1,121 @@
+.main-container {
+  width: 80%;
+  min-height: 80%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 5px 4px 16px 0px #bfbfbf;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.cam-div-con {
+  width: 100%;
+  min-height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cam-container {
+  width: 100%;
+  border-radius: 10px;
+  height: 90%;
+  position: relative;
+}
+
+.frame-class {
+  position: absolute;
+  width: 70%;
+  height: 47%;
+  margin: auto;
+}
+
+.frames-container {
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #5a596d;
+  border-radius: 10px;
+  margin: 15px;
+  width: 95%;
+}
+
+.frame-button {
+  height: 60px;
+  border: 0px;
+  background-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.frame-button-image {
+  width: 100%;
+}
+
+.capture-image {
+  background-color: #de312e;
+  padding: 10px;
+  width: 43%;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  border-radius: 200px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.verify-button {
+  background-color: transparent;
+  border: 0;
+  margin: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.fil {
+  border-radius: 10px;
+  width: 73%;
+  height: 48%;
+  position: absolute;
+}
+
+.filter-styles {
+  position: absolute;
+  opacity: 0.5;
+  height: 75%;
+}
+
+.filter-option-btn {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+}
+
+.filter-option-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter-option-img {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  margin: auto;
+}
+
+.filter-option {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+}
+
+.sticker {
+  position: absolute;
+  cursor: move;
+  height: 50px;
+  width: 50px;
+}
